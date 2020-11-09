@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section Styles {
+        <link href="@Url.Content("~/css/template.css")" rel="stylesheet" type="text/css" />
+}
+<div class="text-center">
+
+
+    <div class="body"></div>
+    <div class="grad"></div>
+    <div class="header">
+        <div>SME<span>System</span></div>
+    </div>
+    <br>
+    <div class="login">
+        <form id = m action="Home/adduser" method="post">
+            <input type="text" placeholder="username" name="username"><br>
+            <input type="password" placeholder="password" name="password"><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    >.</p>
+</div>
